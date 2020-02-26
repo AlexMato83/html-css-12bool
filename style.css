@@ -23,12 +23,14 @@ p {
 }
 #colonne_dx {
   background-color: #ff8080;
-  margin-left: 10px;
+  /* margin-left: 10px; */
 
 }
 #colonne_sx {
   background-color: #ff8080;
-  margin-right: 10px;
+  /* margin-right: 10px; */
+
+  height: 100%;
 
 }
 #colonne_dx > .col-6 {
@@ -38,11 +40,13 @@ p {
   border:1px solid white;
 }
 #padre {
-  padding:10px;
+  
   background-color: pink;
   border:1px solid black;
 
 }
 #padre > .col-6 {
-  border:none;
+
+  height: 100%;
+  padding:10px;
 }
