@@ -1,0 +1,42 @@
+
+*{
+  margin:0;
+  box-sizing: border-box;
+  padding:0;
+  /* debug ---*/
+
+}
+
+.container {
+   /*------ DEbug:  */
+ /*padding:500px;*/
+ background: pink;
+}
+[class*="col-"] {
+  position: relative;
+}
+p {
+  position: absolute;
+  top:50%;
+  left:50%;
+  transform:translate(-40%, -40%);
+}
+#colonne_dx {
+  background-color: #ff8080;
+  margin-left: 10px;
+
+}
+#colonne_sx {
+  background-color: #ff8080;
+  margin-right: 10px;
+
+}
+#padre {
+  padding:10px;
+  background-color: pink;
+  border:1px solid black;
+
+}
+#padre > .col-6 {
+  border:none;
+}
